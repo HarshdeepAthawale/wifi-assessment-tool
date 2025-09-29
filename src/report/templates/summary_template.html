@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>WiFi Assessment</title></head>
+<body>
+  <h1>WiFi Assessment Report</h1>
+  <table border="1" cellpadding="6">
+    <thead><tr><th>SSID</th><th>Security</th><th>Signal</th></tr></thead>
+    <tbody>
+      {% for n in networks %}
+      <tr>
+        <td>{{n.ssid}}</td>
+        <td>{{n.security}}</td>
+        <td>{{n.signal}}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>
