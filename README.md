@@ -2,7 +2,7 @@
 
 ---
 
-# WiFi Security Assessment Tool (Starter)
+# WiFi Security Assessment Tool 
 
 An **educational WiFi security assessment tool** that can:
 
